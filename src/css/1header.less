@@ -1,0 +1,28 @@
+// HEADER START //
+@import "var.less";
+header{
+    .flex(flex,row,center,center);
+    background: #e5e5e5;
+    height: 125px;
+    width: 100%;
+  }
+  section.header{
+    .flex(flex,row,space-between,center);
+    width: 1170px;
+    height: 125px;
+    h1{
+      .text(Roboto Condensed,#4e4e4e,40px,700,65px,left,uppercase);
+    }
+    nav{
+      .flex(flex,row,space-between,center);
+      width: 430px;
+      a{
+        .text(Roboto Condensed,#4e4e4e,16px,700,35px,left,uppercase);
+      }
+      a:hover{
+        .text(Roboto Condensed,#1abb9c,16px,700,35px,left,uppercase);
+      }
+    }
+  }
+  
+  // HEADER END //

@@ -1,0 +1,28 @@
+// SECTION BLOCKS //
+@import "var.less";
+section.blocks{
+    padding-top: 60px;
+    width: 100%;
+    .flex(flex,row,space-around,center);
+    section{
+      .flex(flex,row,space-around,center);
+    }
+    section.row1{
+      width: 50%;
+    }
+    section.row2{
+      width: 50%;
+    }
+    article{
+      width: 235px;
+      padding-bottom: 30px;
+      .flex(flex,column,space-around,center);
+      h1{
+        .text(Roboto Slab,#4e4e4e,18px,700,60px,center,none);
+      }
+      h2{
+        .text(Roboto,#616161,14px,400,24px,center,none);
+      }
+    }
+  }
+  // SECTION BLOCKS END //

@@ -1,0 +1,55 @@
+// FOOTER START //
+@import "var.less";
+footer{
+    .flex(flex,column,flex-start,center);
+    background-color: #1d1d1d;
+    height: 460px;
+    width: 100%;
+  }
+  section.footer_links{
+    .flex(flex,row,space-around,center);
+    width: 1170px;
+    article{
+      .flex(flex,column,flex-start,flex-start);
+      width: 255px;
+      height: 300px;
+      h1{
+        .text(Roboto Condensed,#6c6c6c,18px,700,22px,left,uppercase);
+        padding-top: 50px;
+        padding-bottom: 25px;
+        width: 200px;
+      }
+      p{
+        padding-bottom: 5px;
+        width: 250px;
+        .text(Roboto,#cacaca,14px,400,24px,left,normal);
+      }
+      ul.touch {
+    
+        width: 230px;
+        padding-left: 25px;
+        padding-top: 35px;
+        li {
+          .text(Roboto,#cacaca,14px,400,24px,left,normal);
+        }
+        li.email{
+          list-style-image: url(images/email.png);
+        }
+        li.adress{
+          list-style-image: url(images/adress.png); /* Путь к изображению маркера */
+        }
+        li.telephone{
+          list-style-image: url(images/tel.png);
+        }
+       }
+      ul.twitter{
+        li{
+          padding-bottom: 15px;
+          .text(Roboto,#cacaca,14px,400,24px,left,normal);
+        }
+      }
+    }
+    
+  }
+  
+  // FOOTER END //

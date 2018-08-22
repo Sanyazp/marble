@@ -1,0 +1,30 @@
+// SECTION WORKS START //
+@import "var.less";
+section.works{
+    width: 100%;
+    & > h1{
+      .text(Roboto Condensed,#4e4e4e,18px,700,35px,left,uppercase);
+      padding-bottom: 25px;
+    }
+  }
+  section.works_blocks{
+    .flex(flex,row,space-between,center);
+    article{
+      .flex(flex,column,space-around, flex-start);
+      width: 380px;
+      h1{
+        .text(Roboto Slab,#4e4e4e,18px,700,65px,left,none);
+      }
+      span{
+        display: block;
+        .text(Roboto Slab,#a8a8a8,13px,400,5px,left,none);
+        padding-bottom: 25px;
+      }
+      h2{
+        .text(Roboto,#5c5c5c,14px,400,28px,left,none);
+      }
+    }
+    padding-bottom: 60px;
+  }
+  
+  // SECTION WORKS END //
